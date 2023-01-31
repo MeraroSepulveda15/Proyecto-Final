@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+.mitad{
+    margin: 80px 0px 0px 80px;
+    width: 576px;
+    height: 704px;
+    float: left;
+    height: 832px;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    margin: 0px 16px 16px 0px;
+    width: 128px;
+    height: 160px;
+    background-color: black;
+    color: white;
+    border: 0px;
+    font-size: 40px;
+    font-weight: 600;
+    float: left;
+}
+    #bnobutton{
+        margin: 0px 16px 16px 0px;
+        width: 128px;
+        height: 160px;
+        background-color: black;
+        color: white;
+        border: 0px;
+        font-size: 40px;
+        font-weight: 600;
+        float: left;
+    }
+    button:active{
+        background-color: #31B6FD;
+    }
+    #operandos{
+        background-color: #FFDE63;
+    }
+    #operandos:active{
+        background-color: #31B6FD;
+    }
+
+#texto{
+    width: 576px;
+    height: 176px;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+    p{
+        font-size: 40px;
+        font-weight: 600;
+    }
+#result{
+    width: 576px;
+    height: 176px;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+#resetconten{
+    display: flex;
+    justify-content: center;
+}
+    #reset{
+        background-color: #D9D9D9;
+        font-size: 20px;
+        font-weight: 400;
+        color: white;
+        height: 40px;
+        width: 224px;
+    }
+        #reset:active{
+            background-color: #31B6FD;
+        }
+#figuras{
+    width: 576px;
+    height: 176px;
+}
+
+
+
